@@ -8,12 +8,12 @@
     <link rel="icon" type="image/x-icon" href="/resources/favicon.ico">
 </head>
 <body>
-@section('partial.header')
+@include('partials.navbar')
 
     <main>
         @yield('content')
     </main>
 
-@section('partial.footer')
+@include('partials.footer')
 </body>
 </html>
